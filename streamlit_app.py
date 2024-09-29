@@ -7,7 +7,7 @@ import os #picking up env vars
 from PIL import Image
 import google.generativeai as genai
 
-genai.configure(api_key="YOUR_GEMINI_API_KEY") #config.
+genai.configure(api_key="AIzaSyATMX1iUWmkpPLoUwbV3FY88GceMdBKGKY") #config.
 
 #function to load gemini pro vision
 model=genai.GenerativeModel('gemini-1.5-flash')
